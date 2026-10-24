@@ -1,0 +1,17 @@
+{
+  "weights": {
+    "weighting": "none",
+    "lib_weight": 1.0,
+    "review_weight": 1.0
+  },
+  "als": {
+    "factors": 16,
+    "regularization": 10.0,
+    "alpha": 10.0,
+    "iterations": 10
+  },
+  "hybrid": {
+    "lam": 0.3,
+    "beta": 1.0
+  }
+}

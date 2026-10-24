@@ -1,0 +1,20 @@
+# Data
+duckdb
+polars
+pandas
+numpy
+pyarrow
+# ML
+scikit-learn
+implicit
+lightgbm
+# Viz / app
+plotly
+seaborn
+streamlit
+# Tracking
+mlflow
+# Dev
+jupyter
+pytest
+kaggle

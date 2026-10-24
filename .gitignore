@@ -1,0 +1,28 @@
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+models/*
+!models/.gitkeep
+# files the Streamlit app needs at runtime
+!models/app_artifacts.npz
+!models/app_catalog.parquet
+!models/config.json
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+mlruns/
+wandb/
+.DS_Store
+*.duckdb
+
+# local run artefacts
+reports/*.log
+.pytest_cache/
+
+# personal notes, not part of the repo
+docs/
+
+# generated summaries and placeholders, not tracked
+reports/*.md
+notebooks/*.md
